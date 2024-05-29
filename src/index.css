@@ -1,5 +1,27 @@
-.blurry {
-    filter: blur(30px);
+image-element {
+    & img {
+        &.blurry {
+            overflow: hidden;
+            filter: blur(30px);
+        }
+
+        &.sharp {
+            opacity: 0;
+            &.loaded {
+                opacity: 1;
+                animation: sharpen 0.6s both;
+            }
+        }
+    }
+}
+
+@keyframes sharpen {
+    from {
+        filter: blur(30px);
+    }
+    to {
+        filter: blur(0px)
+    }
 }
 
 /* image-el {

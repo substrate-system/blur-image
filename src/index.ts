@@ -14,7 +14,8 @@ export class ImageElement extends HTMLElement {
         debug('placeholder', pl)
 
         this.innerHTML = `<img
-            class="image-element"
+            laoding="lazy"
+            class="image-element blurry"
             style="background-size: cover; background-image: url('${this.placeholder}')"
             src="${this.getAttribute('src')}"
         />`
@@ -25,6 +26,15 @@ export class ImageElement extends HTMLElement {
 
         img!.addEventListener('load', (ev) => {
             debug('loaded', ev)
+            if (!(ev.target instanceof HTMLImageElement)) {
+                throw new Error('not image')  // for TS
+            }
+
+            const img = ev.target
+            img.style.backgroundImage = 'none'
+            img.classList.remove('blurry')
+            img.classList.add('sharp')
+            img.classList.add('loaded')
         })
     }
 
