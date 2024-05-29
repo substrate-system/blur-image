@@ -1,3 +1,6 @@
+.blurry {
+    filter: blur(30px);
+}
 
 /* image-el {
     & .placeholder img {

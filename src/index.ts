@@ -20,6 +20,14 @@ export class ImageElement extends HTMLElement {
         />`
     }
 
+    connectedCallback () {
+        const img = this.querySelector('img')
+
+        img!.addEventListener('load', (ev) => {
+            debug('loaded', ev)
+        })
+    }
+
     // src="100.jpg"
 }
 
