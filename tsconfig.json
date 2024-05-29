@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "listFiles": true,
+    "types": ["vite/client"],
     "module": "ES2022",
     "target": "ES2022",
     "moduleResolution": "Bundler",
