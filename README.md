@@ -8,7 +8,7 @@
 
 -----------------------------------------
 
-An image element that uses the [blur-up technique](https://www.industrialempathy.com/posts/image-optimizations/#blurry-placeholder).
+An image element that uses the [blur-up technique](https://css-tricks.com/the-blur-up-technique-for-loading-background-images/).
 
 This depends on having some inline base64 code for a small, blurry image. See [@bicycle-codes/base64](https://github.com/bicycle-codes/img-stringify) for help with that.
 
@@ -68,3 +68,13 @@ Then link to it in your HTML:
     <script src="./image-element.ts"></script>
 </body>
 ```
+
+## see also
+
+* [industrialempathy.com/image-optimizations](https://www.industrialempathy.com/posts/image-optimizations/)
+* [bholmes.dev/picture-perfect-image-optimization/](https://bholmes.dev/blog/picture-perfect-image-optimization/)
+* [css-tricks -- The “Blur Up” Technique for Loading Background Images](https://css-tricks.com/the-blur-up-technique-for-loading-background-images/)
+* [css-tricks -- the `sizes` attribute](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/#aa-also-sizes)
+**tldr;** = "It’s actually not that bad to just leave it off. In that case, it assumes sizes='100vw'."
+* [cloudfour.com -- Don’t use <picture> (most of the time)](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/)
+* [css-tricks -- Responsive Images: If you’re just changing resolutions, use srcset.](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/)

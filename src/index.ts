@@ -1,6 +1,5 @@
 export class ImageElement extends HTMLElement {
     placeholder:string
-    src:string
     srcset:string|null
 
     constructor () {
@@ -9,12 +8,12 @@ export class ImageElement extends HTMLElement {
         const pl = this.getAttribute('placeholder')
         if (!pl) throw new Error('Missing placeholder attribute')
         this.placeholder = pl
-        this.src = this.getAttribute('src')!
         this.srcset = this.getAttribute('srcset')
 
         this.innerHTML = `<img
             ${this.srcset ? `srcset=${this.srcset}` : ''}
-            laoding="lazy"
+            content-visibility=auto
+            laoding="${this.getAttribute('loading') || 'lazy'}"
             class="image-element blurry"
             style="background-size: cover; background-image: url('${this.placeholder}')"
             src="${this.getAttribute('src')}"
