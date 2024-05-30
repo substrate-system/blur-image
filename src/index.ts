@@ -11,9 +11,10 @@ export class ImageElement extends HTMLElement {
         this.srcset = this.getAttribute('srcset')
 
         this.innerHTML = `<img
-            ${this.srcset ? `srcset=${this.srcset}` : ''}
+            ${this.srcset ? `srcset="${this.srcset}"` : ''}
             content-visibility=auto
-            laoding="${this.getAttribute('loading') || 'lazy'}"
+            decoding="async"
+            loading="${this.getAttribute('loading') || 'lazy'}"
             class="image-element blurry"
             style="background-size: cover; background-image: url('${this.placeholder}')"
             src="${this.getAttribute('src')}"
@@ -32,7 +33,6 @@ export class ImageElement extends HTMLElement {
             img.style.backgroundImage = 'none'
             img.classList.remove('blurry')
             img.classList.add('sharp')
-            img.classList.add('loaded')
         })
     }
 }

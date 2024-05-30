@@ -5,7 +5,7 @@ image-element {
         transition: opacity 0.4s;
 
         &.blurry {
-            opacity: 0.4;
+            opacity: 0.6;
             filter: blur(30px);
         }
 

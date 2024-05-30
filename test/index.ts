@@ -5,4 +5,7 @@ import '../src/index.js'
 test('example', async t => {
     const el = await waitFor('image-element')
     t.ok(el, 'should find an `image-element` tag')
+    const srcset = el?.getAttribute('srcset')
+    t.ok(srcset?.includes('100.jpg'), 'should render with a srcset attribute')
+    t.ok(srcset?.includes('800w'), 'should render with a srcset attribute')
 })
