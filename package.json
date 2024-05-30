@@ -403,7 +403,7 @@
     "prelude-ls": "^1.2.1",
     "pretty-hrtime": "^1.0.3",
     "pretty-ms": "^2.1.0",
-    "process-nextick-args": "^1.0.7",
+    "process-nextick-args": "^2.0.1",
     "progress": "^2.0.3",
     "pump": "^3.0.0",
     "punycode": "^1.4.1",
