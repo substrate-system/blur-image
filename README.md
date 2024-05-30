@@ -8,9 +8,9 @@
 
 -----------------------------------------
 
-An image element that uses the [blur-up technique](https://css-tricks.com/the-blur-up-technique-for-loading-background-images/).
+Use the [blur-up technique](https://css-tricks.com/the-blur-up-technique-for-loading-background-images/) with images, as a webcomponent.
 
-This depends on having some inline base64 code for a small, blurry image. See [@bicycle-codes/base64](https://github.com/bicycle-codes/img-stringify) for help with that.
+This depends on having some inline base64 code for a small, blurry image. See [@bicycle-codes/stringify](https://github.com/bicycle-codes/stringify) for help with that.
 
 ## install
 
@@ -23,10 +23,11 @@ Import this module, then use the tag in your HTML.
 
 ### bundler
 Just import the module, and it will patch the global `customElements` object.
+Also, link to the styles.
 
 ```js
 import '@bicycle-codes/image-element'
-import '@bicycle-codes/image-element/index.css'
+import '@bicycle-codes/image-element/style.css'
 ```
 
 Then use the tag in your HTML:
@@ -41,7 +42,7 @@ Then use the tag in your HTML:
 ```
 
 ### HTML
-This package includes a minified file, suitable for linking to directly from your HTML.
+This package includes minified CSS and JS files, suitable for linking to directly from your HTML.
 
 First make sure the file is accessible by your web server:
 
@@ -54,7 +55,7 @@ Then link to it in your HTML:
 
 ```html
 <head>
-    <!-- include the style too -->
+    <!-- include the style -->
     <link rel="stylesheet" href="/style.min.css">
 </head>
 
@@ -67,6 +68,14 @@ Then link to it in your HTML:
     <!-- include the JS -->
     <script src="./image-element.ts"></script>
 </body>
+```
+
+## develop
+
+Start a local dev server:
+
+```sh
+npm start
 ```
 
 ## see also
