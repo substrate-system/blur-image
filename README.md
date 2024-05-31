@@ -75,7 +75,7 @@ Then link to it in your HTML:
     ></image-element>
 
     <!-- include the JS -->
-    <script src="./image-element.ts"></script>
+    <script src="./image-element.js"></script>
 </body>
 ```
 
