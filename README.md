@@ -25,6 +25,10 @@ See a demonstration here: [bicycle-codes.github.io/image-element/](https://bicyc
 > [!TIP]
 > Throttle the internet speed with the dev tools.
 
+![Screenshot of blurry image](./before.png)
+
+![Screenshot of sharp image](./after.png)
+
 ## use
 Import this module, then use the tag in your HTML.
 
