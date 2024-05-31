@@ -26,7 +26,6 @@ See a demonstration here: [bicycle-codes.github.io/image-element/](https://bicyc
 > Throttle the internet speed with the dev tools.
 
 <img src="https://github.com/bicycle-codes/image-element/raw/main/before.png" width="200">
-
 <img src="https://github.com/bicycle-codes/image-element/raw/main/after.png" width="200">
 
 ## use
