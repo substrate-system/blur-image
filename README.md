@@ -18,6 +18,13 @@ This depends on having some inline base64 code for a small, blurry image. See [@
 npm i -S @bicycle-codes/image-element
 ```
 
+## demonstration
+
+See a demonstration here: [bicycle-codes.github.io/image-element/](https://bicycle-codes.github.io/image-element/).
+
+> [!TIP]
+> Throttle the internet speed with the dev tools.
+
 ## use
 Import this module, then use the tag in your HTML.
 
@@ -69,6 +76,8 @@ Then link to it in your HTML:
     <script src="./image-element.ts"></script>
 </body>
 ```
+
+
 
 ## develop
 
