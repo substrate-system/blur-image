@@ -53,7 +53,7 @@ Then use the tag in your HTML:
 ### HTML
 This package includes minified CSS and JS files, suitable for linking to directly from your HTML.
 
-First make sure the file is accessible by your web server:
+First make sure the files are accessible by your web server:
 
 ```sh
 cp ./node_modules/@bicycle-codes/image-element/dist/index.min.js ./public/image-element.js
