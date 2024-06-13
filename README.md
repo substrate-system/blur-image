@@ -28,7 +28,8 @@ See a demonstration here: [bicycle-codes.github.io/image-element](https://bicycl
 <img src="https://github.com/bicycle-codes/image-element/raw/main/before.png" width="200" /> <img src="https://github.com/bicycle-codes/image-element/raw/main/after.png" width="200" />
 
 ## use
-Import this module, then use the tag in your HTML.
+Import this module, then use the tag in your HTML. It should work with all
+[contemporary image attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#how_do_you_create_responsive_images).
 
 ### bundler
 Just import the module; it will call the global `customElements.define`
