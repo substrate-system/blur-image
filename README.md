@@ -8,7 +8,7 @@
 
 -----------------------------------------
 
-Use the [blur-up technique](https://css-tricks.com/the-blur-up-technique-for-loading-background-images/) with images, as a webcomponent.
+Use the [blur-up technique](https://css-tricks.com/the-blur-up-technique-for-loading-background-images/) with images, as a web component.
 
 This depends on having some inline base64 code for a small, blurry image. See [@bicycle-codes/stringify](https://github.com/bicycle-codes/stringify) for help with that.
 
@@ -20,7 +20,7 @@ npm i -S @bicycle-codes/image-element
 
 ## demonstration
 
-See a demonstration here: [bicycle-codes.github.io/image-element/](https://bicycle-codes.github.io/image-element/).
+See a demonstration here: [bicycle-codes.github.io/image-element](https://bicycle-codes.github.io/image-element/).
 
 > [!TIP]
 > Throttle the internet speed with the dev tools.
@@ -78,8 +78,6 @@ Then link to it in your HTML:
     <script src="./image-element.js"></script>
 </body>
 ```
-
-
 
 ## develop
 
