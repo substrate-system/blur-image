@@ -31,8 +31,8 @@ See a demonstration here: [bicycle-codes.github.io/image-element](https://bicycl
 Import this module, then use the tag in your HTML.
 
 ### bundler
-Just import the module, and it will patch the global `customElements` object.
-Also, link to the styles.
+Just import the module; it will call the global `customElements.define`
+function. Also, import the styles.
 
 ```js
 import '@bicycle-codes/image-element'
