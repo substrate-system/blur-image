@@ -13,4 +13,6 @@ test('example', async t => {
         'should have loading=lazy attribute')
     t.equal(img?.getAttribute('decoding'), 'async',
         'should have async decoding attribute')
+    t.equal(img?.getAttribute('alt'), 'testing',
+        'should have an "alt" attribute')
 })

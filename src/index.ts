@@ -12,6 +12,7 @@ export class ImageElement extends HTMLElement {
 
         this.innerHTML = `<img
             ${this.srcset ? `srcset="${this.srcset}"` : ''}
+            alt="${this.getAttribute('alt')}"
             content-visibility="${this.getAttribute('content-visibility') || 'auto'}"
             decoding="${this.getAttribute('decoding') || 'async'}"
             loading="${this.getAttribute('loading') || 'lazy'}"
