@@ -12,8 +12,8 @@ export class ImageElement extends HTMLElement {
 
         this.innerHTML = `<img
             ${this.srcset ? `srcset="${this.srcset}"` : ''}
-            content-visibility=auto
-            decoding="async"
+            content-visibility="${this.getAttribute('content-visibility') || 'auto'}"
+            decoding="${this.getAttribute('decoding') || 'async'}"
             loading="${this.getAttribute('loading') || 'lazy'}"
             class="image-element blurry"
             style="background-size: cover; background-image: url('${this.placeholder}')"
