@@ -1,4 +1,4 @@
-export class ImageElement extends HTMLElement {
+export class BlurImage extends HTMLElement {
     placeholder:string
     srcset:string|null
 
@@ -38,4 +38,6 @@ export class ImageElement extends HTMLElement {
     }
 }
 
-customElements.define('image-element', ImageElement)
+export const name = 'blur-image'
+
+customElements.define('blur-image', BlurImage)

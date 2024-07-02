@@ -1,10 +1,10 @@
 import { test } from '@bicycle-codes/tapzero'
 import { waitFor } from '@bicycle-codes/dom'
-import '../src/index.js'
+import { name } from '../src/index.js'
 
-test('example', async t => {
-    const el = await waitFor('image-element')
-    t.ok(el, 'should find an `image-element` tag')
+test('blur-image element', async t => {
+    const el = await waitFor('blur-image')
+    t.ok(el, 'should find an `blur-image` tag')
     const srcset = el?.getAttribute('srcset')
     t.ok(srcset?.includes('100.jpg'), 'should render with a srcset attribute')
     t.ok(srcset?.includes('800w'), 'should render with a srcset attribute')
@@ -15,4 +15,8 @@ test('example', async t => {
         'should have async decoding attribute')
     t.equal(img?.getAttribute('alt'), 'testing',
         'should have an "alt" attribute')
+})
+
+test('exports component name', t => {
+    t.equal(name, 'blur-image', 'should export the component name')
 })

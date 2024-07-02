@@ -1,5 +1,5 @@
 {
-  "name": "@bicycle-codes/image-element",
+  "name": "@bicycle-codes/blur-image",
   "description": "A webcomponent that uses the 'blur up' technique",
   "directories": {
     "doc": "docs",
@@ -81,7 +81,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bicycle-codes/image-element.git"
+    "url": "git+https://github.com/bicycle-codes/blur-image.git"
   },
   "keywords": [
     "image",
@@ -91,9 +91,9 @@
     "component"
   ],
   "bugs": {
-    "url": "https://github.com/bicycle-codes/image-element/issues"
+    "url": "https://github.com/bicycle-codes/blur-image/issues"
   },
-  "homepage": "https://github.com/bicycle-codes/image-element#readme",
+  "homepage": "https://github.com/bicycle-codes/blur-image",
   "author": "nichoth <nichoth@nichoth.com> (https://nichoth.com)",
   "license": "MIT"
 }

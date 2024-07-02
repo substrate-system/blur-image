@@ -1,6 +1,6 @@
-# image element
-![tests](https://github.com/bicycle-codes/image-element/actions/workflows/nodejs.yml/badge.svg)
-[![types](https://img.shields.io/npm/types/@bicycle-codes/image-element?style=flat-square)](README.md)
+# blur image
+![tests](https://github.com/bicycle-codes/blur-image/actions/workflows/nodejs.yml/badge.svg)
+[![types](https://img.shields.io/npm/types/@bicycle-codes/blur-image?style=flat-square)](README.md)
 [![module](https://img.shields.io/badge/module-ESM%2FCJS-blue?style=flat-square)](README.md)
 [![semantic versioning](https://img.shields.io/badge/semver-2.0.0-blue?logo=semver&style=flat-square)](https://semver.org/)
 [![dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen.svg?style=flat-square)](package.json)
@@ -15,17 +15,17 @@ This depends on having some inline base64 code for a small, blurry image. See [@
 ## install
 
 ```sh
-npm i -S @bicycle-codes/image-element
+npm i -S @bicycle-codes/blur-image
 ```
 
 ## demonstration
 
-See a demonstration here: [bicycle-codes.github.io/image-element](https://bicycle-codes.github.io/image-element/).
+See a demonstration here: [bicycle-codes.github.io/blur-image](https://bicycle-codes.github.io/blur-image/).
 
 > [!TIP]
 > Throttle the internet speed with the dev tools.
 
-<img src="https://github.com/bicycle-codes/image-element/raw/main/before.png" width="200" /> <img src="https://github.com/bicycle-codes/image-element/raw/main/after.png" width="200" />
+<img src="https://github.com/bicycle-codes/blur-image/raw/main/before.png" width="200" /> <img src="https://github.com/bicycle-codes/blur-image/raw/main/after.png" width="200" />
 
 ## use
 Import this module, then use the tag in your HTML. It should work with all
@@ -36,18 +36,18 @@ Just import the module; it will call the global `customElements.define`
 function. Also, import the styles.
 
 ```js
-import '@bicycle-codes/image-element'
-import '@bicycle-codes/image-element/style.css'
+import '@bicycle-codes/blur-image'
+import '@bicycle-codes/blur-image/style.css'
 ```
 
 Then use the tag in your HTML:
 
 ```html
 <body>
-    <image-element
+    <blur-image
         src="/100.jpg"
         placeholder="data:image/jpeg;base64,/9j/2wBDAAYEBQY..."
-    ></image-element>
+    ></blur-image>
 </body>
 ```
 
@@ -57,8 +57,8 @@ This package includes minified CSS and JS files, suitable for linking to directl
 First make sure the files are accessible by your web server:
 
 ```sh
-cp ./node_modules/@bicycle-codes/image-element/dist/index.min.js ./public/image-element.js
-cp ./node_modules/@bicycle-codes/image-element/dist/style.min.css ./public
+cp ./node_modules/@bicycle-codes/blur-image/dist/index.min.js ./public/blur-image.js
+cp ./node_modules/@bicycle-codes/blur-image/dist/style.min.css ./public
 ```
 
 Then link to it in your HTML:
@@ -70,13 +70,13 @@ Then link to it in your HTML:
 </head>
 
 <body>
-    <image-element
+    <blur-image
         src="/100.jpg"
         placeholder="data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQY..."
-    ></image-element>
+    ></blur-image>
 
     <!-- include the JS -->
-    <script src="./image-element.js"></script>
+    <script src="./blur-image.js"></script>
 </body>
 ```
 

@@ -1,4 +1,4 @@
-image-element {
+blur-image {
     overflow: hidden;
 
     & img {
