@@ -58,7 +58,7 @@ First make sure the files are accessible by your web server:
 
 ```sh
 cp ./node_modules/@bicycle-codes/blur-image/dist/index.min.js ./public/blur-image.js
-cp ./node_modules/@bicycle-codes/blur-image/dist/style.min.css ./public
+cp ./node_modules/@bicycle-codes/blur-image/dist/style.min.css ./public/blur-image.css
 ```
 
 Then link to it in your HTML:
@@ -66,7 +66,7 @@ Then link to it in your HTML:
 ```html
 <head>
     <!-- include the style -->
-    <link rel="stylesheet" href="/style.min.css">
+    <link rel="stylesheet" href="/blur-image.css">
 </head>
 
 <body>
