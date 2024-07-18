@@ -20,7 +20,7 @@ npm i -S @bicycle-codes/blur-image
 
 ## demonstration
 
-See a demonstration here: [bicycle-codes.github.io/blur-image](https://bicycle-codes.github.io/blur-image/).
+See a demonstration here: [substrate-system.github.io/blur-image](https://substrate-system.github.io/blur-image/).
 
 > [!TIP]
 > Throttle the internet speed with the dev tools.
