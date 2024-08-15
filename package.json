@@ -32,6 +32,29 @@
     "postversion": "git push --follow-tags && npm publish",
     "prepublishOnly": "npm run build"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./min": [
+      "./dist/index.min.js"
+    ],
+    "./css": "./dist/style.css",
+    "./min/css": "./dist/style.min.css",
+    "./*.css": "./dist/style.css",
+    "./min/*.css": "./dist/style.min.css",
+    "./*": {
+      "import": [
+        "./dist/*.js",
+        "./dist/*"
+      ],
+      "require": [
+        "./dist/*.cjs",
+        "./dist/*"
+      ]
+    }
+  },
   "dependencies": {},
   "devDependencies": {
     "@bicycle-codes/debug": "^0.6.8",
@@ -53,31 +76,6 @@
     "typedoc": "^0.26.2",
     "typescript": "^5.4.5",
     "vite": "^5.2.11"
-  },
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
-    },
-    "./min": [
-      "./dist/index.min.js"
-    ],
-    "./*.css": [
-      "./dist/style.css"
-    ],
-    "./min/*.css": [
-      "./dist/style.min.css"
-    ],
-    "./*": {
-      "import": [
-        "./dist/*.js",
-        "./dist/*"
-      ],
-      "require": [
-        "./dist/*.cjs",
-        "./dist/*"
-      ]
-    }
   },
   "repository": {
     "type": "git",

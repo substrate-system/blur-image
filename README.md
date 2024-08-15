@@ -37,7 +37,7 @@ function. Also, import the styles.
 
 ```js
 import '@bicycle-codes/blur-image'
-import '@bicycle-codes/blur-image/style.css'
+import '@bicycle-codes/blur-image/css'
 ```
 
 Then use the tag in your HTML:
