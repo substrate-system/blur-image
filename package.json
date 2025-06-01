@@ -1,5 +1,5 @@
 {
-  "name": "@bicycle-codes/blur-image",
+  "name": "@substrate-system/blur-image",
   "description": "A webcomponent that uses the 'blur up' technique",
   "directories": {
     "doc": "docs",
