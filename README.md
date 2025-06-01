@@ -20,7 +20,19 @@ See [@bicycle-codes/stringify](https://github.com/bicycle-codes/stringify) for
 help with that.
 
 <details><summary><h2>Contents</h2></summary>
+
 <!-- toc -->
+
+- [install](#install)
+- [demonstration](#demonstration)
+- [use](#use)
+  * [bundler](#bundler)
+  * [HTML](#html)
+- [develop](#develop)
+- [see also](#see-also)
+
+<!-- tocstop -->
+
 </details>
 
 ## install
