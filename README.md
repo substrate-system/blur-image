@@ -22,7 +22,7 @@ help with that.
 ## install
 
 ```sh
-npm i -S @bicycle-codes/blur-image
+npm i -S @susbtrate-system/blur-image
 ```
 
 ## demonstration
@@ -32,7 +32,7 @@ See a demonstration here: [substrate-system.github.io/blur-image](https://substr
 > [!TIP]
 > Throttle the internet speed with the dev tools.
 
-<img src="https://github.com/bicycle-codes/blur-image/raw/main/before.png" width="200" /> <img src="https://github.com/bicycle-codes/blur-image/raw/main/after.png" width="200" />
+<img src="https://github.com/substrate-system/blur-image/raw/main/before.png" width="200" /> <img src="https://github.com/substrate-system/blur-image/raw/main/after.png" width="200" />
 
 ## use
 Import this module, then use the tag in your HTML. It should work with all
@@ -101,6 +101,6 @@ npm start
 * [bholmes.dev/picture-perfect-image-optimization/](https://bholmes.dev/blog/picture-perfect-image-optimization/)
 * [css-tricks -- The “Blur Up” Technique for Loading Background Images](https://css-tricks.com/the-blur-up-technique-for-loading-background-images/)
 * [css-tricks -- the `sizes` attribute](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/#aa-also-sizes)
-**tldr;** = "It’s actually not that bad to just leave it off. In that case, it assumes sizes='100vw'."
+**tldr;** "It’s actually not that bad to just leave it off. In that case, it assumes sizes='100vw'."
 * [cloudfour.com -- Don’t use `<picture>` (most of the time)](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/)
 * [css-tricks -- Responsive Images: If you’re just changing resolutions, use srcset.](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/)
