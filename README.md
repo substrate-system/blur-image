@@ -19,6 +19,10 @@ This depends on having some inline base64 code for a small, blurry image.
 See [@bicycle-codes/stringify](https://github.com/bicycle-codes/stringify) for
 help with that.
 
+<details><summary><h2>Contents</h2></summary>
+<!-- toc -->
+</details>
+
 ## install
 
 ```sh
