@@ -56,10 +56,11 @@
       ]
     }
   },
+  "dependencies": {},
   "devDependencies": {
     "@substrate-system/debug": "^0.7.2",
-    "@substrate-system/dom": "^0.1.0",
-    "@substrate-system/tapzero": "^0.10.0",
+    "@substrate-system/dom": "^0.1.7",
+    "@substrate-system/tapzero": "^0.10.15",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "auto-changelog": "^2.4.0",

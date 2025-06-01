@@ -59,8 +59,8 @@ Just import the module; it will call the global `customElements.define`
 function. Also, import the styles.
 
 ```js
-import '@bicycle-codes/blur-image'
-import '@bicycle-codes/blur-image/css'
+import '@substrate-system/blur-image'
+import '@substrate-system/blur-image/css'
 ```
 
 Then use the tag in your HTML:
