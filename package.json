@@ -57,9 +57,9 @@
     }
   },
   "devDependencies": {
-    "@bicycle-codes/debug": "^0.7.2",
-    "@bicycle-codes/dom": "^0.1.0",
-    "@bicycle-codes/tapzero": "^0.10.0",
+    "@substrate-system/debug": "^0.7.2",
+    "@substrate-system/dom": "^0.1.0",
+    "@substrate-system/tapzero": "^0.10.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "auto-changelog": "^2.4.0",
@@ -80,7 +80,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bicycle-codes/blur-image.git"
+    "url": "git+https://github.com/substrate-system/blur-image.git"
   },
   "keywords": [
     "image",
@@ -90,9 +90,9 @@
     "component"
   ],
   "bugs": {
-    "url": "https://github.com/bicycle-codes/blur-image/issues"
+    "url": "https://github.com/substrate-system/blur-image/issues"
   },
-  "homepage": "https://github.com/bicycle-codes/blur-image",
+  "homepage": "https://github.com/substrate-system/blur-image",
   "author": "nichoth <nichoth@nichoth.com> (https://nichoth.com)",
   "license": "SEE LICENSE IN LICENSE"
 }
