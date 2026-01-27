@@ -56,6 +56,7 @@
       ]
     }
   },
+  "dependencies": {},
   "devDependencies": {
     "@substrate-system/debug": "^0.9.1",
     "@substrate-system/dom": "^0.1.7",

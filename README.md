@@ -16,7 +16,7 @@ Use the [blur-up technique](https://css-tricks.com/the-blur-up-technique-for-loa
 with images, as a web component.
 
 This depends on having some inline base64 code for a small, blurry image.
-See [@bicycle-codes/stringify](https://github.com/bicycle-codes/stringify) for
+See [@substrate-system/stringify](https://github.com/bicycle-codes/stringify) for
 help with that.
 
 <details><summary><h2>Contents</h2></summary>
@@ -35,13 +35,13 @@ help with that.
 
 </details>
 
-## install
+## Install
 
 ```sh
 npm i -S @susbtrate-system/blur-image
 ```
 
-## demonstration
+## Demonstration
 
 See a demonstration here: [substrate-system.github.io/blur-image](https://substrate-system.github.io/blur-image/).
 
@@ -50,11 +50,11 @@ See a demonstration here: [substrate-system.github.io/blur-image](https://substr
 
 <img src="https://github.com/substrate-system/blur-image/raw/main/before.png" width="200" /> <img src="https://github.com/substrate-system/blur-image/raw/main/after.png" width="200" />
 
-## use
+## Use
 Import this module, then use the tag in your HTML. It should work with all
 [contemporary image attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#how_do_you_create_responsive_images).
 
-### bundler
+### Bundler
 Just import the module; it will call the global `customElements.define`
 function. Also, import the styles.
 
@@ -103,7 +103,7 @@ Then link to it in your HTML:
 </body>
 ```
 
-## develop
+## Develop
 
 Start a local dev server:
 
@@ -111,12 +111,13 @@ Start a local dev server:
 npm start
 ```
 
-## see also
+## See Also
 
 * [industrialempathy.com/image-optimizations](https://www.industrialempathy.com/posts/image-optimizations/)
 * [bholmes.dev/picture-perfect-image-optimization/](https://bholmes.dev/blog/picture-perfect-image-optimization/)
 * [css-tricks -- The “Blur Up” Technique for Loading Background Images](https://css-tricks.com/the-blur-up-technique-for-loading-background-images/)
 * [css-tricks -- the `sizes` attribute](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/#aa-also-sizes)
-**tldr;** "It’s actually not that bad to just leave it off. In that case, it assumes sizes='100vw'."
+  **tldr;** "It’s actually not that bad to just leave it off. In that case, it assumes sizes='100vw'."
 * [cloudfour.com -- Don’t use `<picture>` (most of the time)](https://cloudfour.com/thinks/dont-use-picture-most-of-the-time/)
 * [css-tricks -- Responsive Images: If you’re just changing resolutions, use srcset.](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/)
+* [Wolt BlurHash -- a special smaller version](https://blurha.sh/)
