@@ -23,13 +23,13 @@ help with that.
 
 <!-- toc -->
 
-- [install](#install)
-- [demonstration](#demonstration)
-- [use](#use)
-  * [bundler](#bundler)
+- [Install](#install)
+- [Demonstration](#demonstration)
+- [Use](#use)
+  * [Bundler](#bundler)
   * [HTML](#html)
-- [develop](#develop)
-- [see also](#see-also)
+- [Develop](#develop)
+- [See Also](#see-also)
 
 <!-- tocstop -->
 
